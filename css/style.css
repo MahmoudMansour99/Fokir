@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+/* _______________Local Styles_______________ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+/* ______________-Home Styles________________ */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero\ img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.home-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.navbar {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-logo {
+  float: left;
+  width: 40%;
+  margin-top: 3px;
+}
+
+.navbar-logo a {
+  font-weight: 600;
+  font-size: 28px;
+  text-decoration: none;
+  color: #ff305b;
+}
+
+.navbar-links {
+  float: right;
+  width: 60%;
+  padding-left: 13%;
+}
+
+.navbar-links ul li {
+  float: left;
+  padding: 10px;
+  list-style: none;
+}
+.navbar-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.navbar-links ul li a:hover {
+  color: #ff305b;
+}
+
+.hero {
+  text-align: center;
+  margin: 15%;
+  overflow: hidden;
+}
+
+.hero h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: #ff305b;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 26px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
