@@ -5,8 +5,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Source Sans 3", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .clear-fix {
@@ -17,7 +18,7 @@
   padding: 0 10%;
 }
 
-/* ______________-Home Styles________________ */
+/* ______________Home Styles________________*/
 
 .home {
   width: 100%;
@@ -42,7 +43,7 @@
   width: 100%;
   background: transparent;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.895);
 }
 
 .navbar-logo {
@@ -59,9 +60,9 @@
 }
 
 .navbar-links {
-  float: right;
-  width: 60%;
-  padding-left: 13%;
+  float: left;
+  width: 40%;
+  padding-left: 5%;
 }
 
 .navbar-links ul li {
@@ -104,4 +105,119 @@
   position: relative;
   text-align: center;
   overflow: hidden;
+}
+
+/* _____________About Styles____________ */
+.about {
+  padding: 8% 10%;
+}
+
+.about-box {
+  width: 30%;
+  margin-left: 10%;
+  /* overflow: hidden; */
+  float: left;
+  border-radius: 7px;
+  /* box-shadow: 0 0 0 8px #555555; */
+  border: 8px solid #555;
+}
+
+.about-image {
+  width: 100%;
+  position: relative;
+  transform: translate(20px, 20px);
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 125%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.4s all ease-in-out;
+  border-radius: 5px;
+}
+
+.social {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social a {
+  padding: 9px;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+
+.social a:hover {
+  color: #ff305b;
+}
+
+.about-image:hover .about-overlay {
+  top: 0;
+}
+
+.about-content {
+  width: 50%;
+  float: left;
+  margin-left: 7%;
+}
+
+.about-content h2 {
+  color: #333;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.about-content h2 span {
+  color: #ff305b;
+}
+
+.about-content p {
+  border-bottom: 1px dashed #999;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  color: #555;
+  font-size: 18px;
+}
+
+.about-content ul {
+  float: left;
+  list-style: none;
+  padding: 0 45px 0 0;
+  margin-bottom: 25px;
+}
+
+.about-content ul li {
+  padding: 0 13px 13px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.about-content ul li span {
+  font-weight: bold;
+  color: #333;
+}
+
+.about-content a {
+  margin-top: 15px;
+  text-decoration: none;
+  background-color: #ff305b;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
