@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: "Source Sans 3", sans-serif;
   scroll-behavior: smooth;
 }
@@ -15,7 +15,21 @@
 }
 
 .container {
-  padding: 0 10%;
+  padding: 6% 10%;
+}
+
+.title-border {
+  background-color: #ff305b;
+  width: 80px;
+  height: 0.1px;
+  margin: 5px auto;
+}
+
+.middle-title-border {
+  background-color: #ff305b;
+  width: 180px;
+  height: 0.1px;
+  margin: 0 auto;
 }
 
 /* ______________Home Styles________________*/
@@ -23,7 +37,7 @@
 .home {
   width: 100%;
   height: 100vh;
-  background: url(../images/hero\ img.jpg) no-repeat;
+  background: url(../images/header.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -35,11 +49,12 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
 .navbar {
+  padding: 0% 10%;
   width: 100%;
   background: transparent;
   position: fixed;
@@ -50,6 +65,7 @@
   float: left;
   width: 40%;
   margin-top: 3px;
+  margin-left: 2%;
 }
 
 .navbar-logo a {
@@ -60,9 +76,9 @@
 }
 
 .navbar-links {
-  float: left;
-  width: 40%;
-  padding-left: 5%;
+  float: right;
+  width: 50%;
+  margin-left: 95px;
 }
 
 .navbar-links ul li {
@@ -108,17 +124,14 @@
 }
 
 /* _____________About Styles____________ */
-.about {
-  padding: 8% 10%;
-}
 
 .about-box {
   width: 30%;
   margin-left: 10%;
-  /* overflow: hidden; */
+
   float: left;
   border-radius: 7px;
-  /* box-shadow: 0 0 0 8px #555555; */
+
   border: 8px solid #555;
 }
 
@@ -152,7 +165,7 @@
 }
 
 .social a {
-  padding: 9px;
+  padding: 7px;
   font-size: 18px;
   color: #fff;
   transition: 0.4s all ease-in-out;
@@ -178,10 +191,8 @@
   font-weight: 600;
   line-height: 22px;
   margin-bottom: 25px;
-}
-
-.about-content h2 span {
-  color: #ff305b;
+  padding-left: 7px;
+  border-left: 5px solid #ff305b;
 }
 
 .about-content p {
@@ -220,4 +231,155 @@
   font-size: 16px;
   margin-right: 10px;
   border-radius: 5px;
+  transition: 0.5s all;
+}
+
+.about-content a:hover {
+  background-color: red;
+}
+
+/* ___________Services______________ */
+
+.services {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.services-title {
+  margin-bottom: 50px;
+}
+.services h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.services-content {
+  width: 100%;
+  margin-left: 7px;
+}
+
+.service {
+  width: 23%;
+  float: left;
+  margin: 0 10px;
+  padding: 20px;
+  transition: 0.5s all;
+}
+
+.service i {
+  color: #ff305b;
+  font-size: 28px;
+  margin: 10px;
+  transition: 0.5s all;
+}
+
+.service h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.service p {
+  font-size: 18px;
+}
+
+.service:hover {
+  background-color: #fff;
+}
+
+.service:hover i {
+  transform: scale(1.2);
+}
+
+/* ____________Portfolio Styles_________________ */
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio-title h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.portfolio-types {
+  margin-top: 45px;
+}
+
+.portfolio-types a {
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio-types a:first-child {
+  color: #ff305b;
+}
+
+.portfolio-images {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.portfolio-image {
+  width: 30%;
+  float: left;
+  margin: 20px;
+  position: relative;
+}
+
+.portfolio-image img {
+  width: 100%;
+}
+.portfolio-image .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all;
+}
+
+.portfolio-image:hover .layer {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.layer i {
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  transition: 0.1s all;
+  color: #ff305b;
+  visibility: hidden;
+}
+
+.portfolio-image:hover .layer i {
+  visibility: visible;
+}
+
+/* ________________Fun Facts________________ */
+
+.fun-facts {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.fact {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin-left: 4%;
+}
+
+.fact i {
+  color: #ff305b;
+  font-size: 28px;
+  margin: 10px;
+  transition: 0.5s all;
+}
+
+.fact h3 {
+  font-size: 24px;
 }
