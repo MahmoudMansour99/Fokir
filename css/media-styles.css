@@ -1,0 +1,836 @@
+/* __________________Extra small devices (phones, 600px and down)________________________ */
+
+@media only screen and (max-width: 600px) {
+  /* ____________Home Styles_______________ */
+
+  .navbar {
+    padding: 1% 1%;
+    position: static;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar-links {
+    text-align: center;
+    width: 100%;
+    padding-left: 1%;
+  }
+
+  .navbar ul {
+    padding: 5px;
+  }
+
+  .navbar-links ul li {
+    padding: 0 10px;
+    list-style: none;
+    border-right: 1px solid #fff;
+  }
+
+  .navbar-links ul li:nth-child(7) {
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 35% 0;
+    overflow: hidden;
+  }
+
+  .hero h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff305b;
+  }
+
+  .hero p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero p .text-wrapper {
+    width: 90px;
+    height: 29px;
+    vertical-align: bottom;
+    overflow: hidden;
+  }
+
+  /* _____________About Styles____________ */
+
+  .about {
+    padding: 8% 0;
+  }
+
+  .about-box {
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    float: left;
+    border-radius: 7px;
+    border: 0;
+  }
+
+  .about-content {
+    width: 85%;
+    float: left;
+    padding: 20px;
+  }
+
+  .about-content ul {
+    float: left;
+    list-style: none;
+    padding: 0 45px 0 0;
+    margin-bottom: 0;
+  }
+
+  .about-content ul:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  /* ___________Services______________ */
+
+  .services-content {
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .service {
+    width: 90%;
+    float: left;
+    margin: 0 10px;
+    padding: 20px;
+    transition: 0.5s all;
+  }
+
+  /* ____________Portfolio Styles_________________ */
+
+  .portfolio-image {
+    width: 90%;
+  }
+
+  /* ________________Fun Facts________________ */
+
+  .fact {
+    width: 90%;
+    padding: 20px;
+  }
+
+  /* _________________Testimonials Styles____________________ */
+
+  .testimonial {
+    width: 90%;
+    margin-left: 7%;
+  }
+
+  .testimonial-image {
+    width: 30%;
+    float: none;
+    margin-left: 30%;
+  }
+
+  .testimonial-content {
+    width: 90%;
+    padding-left: 0;
+    margin-top: 9%;
+  }
+
+  /* ________________Blog Styles______________________ */
+
+  .blog-card {
+    width: 90%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    padding-bottom: 35px;
+  }
+
+  /* ______________Contact Styles___________________ */
+
+  .contact-form {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .form-control {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .form-subject-control {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* _______________Footer Styles________________ */
+
+  .footer {
+    padding: 5%;
+  }
+}
+
+/* _______________Small devices (portrait tablets and large phones, 600px and up)____________ */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* ____________Home Styles_______________ */
+
+  .navbar {
+    padding: 1% 1%;
+    position: static;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar-links {
+    text-align: center;
+    width: 100%;
+    padding-left: 9%;
+  }
+
+  .navbar ul {
+    padding: 5px;
+  }
+
+  .navbar-links ul li {
+    padding: 0 10px;
+    list-style: none;
+    border-right: 1px solid #fff;
+  }
+
+  .navbar-links ul li:nth-child(7) {
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 25% 0;
+    overflow: hidden;
+  }
+
+  /* _____________About Styles____________ */
+
+  .about {
+    padding: 10% 0;
+  }
+
+  .about-box {
+    width: 65%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    float: left;
+    border-radius: 7px;
+    border: 0;
+  }
+
+  .about-content {
+    width: 65%;
+    float: left;
+    padding: 20px;
+
+    margin-left: 15%;
+  }
+
+  .about-content ul {
+    float: left;
+    list-style: none;
+    padding: 0 45px 0 0;
+    margin-bottom: 0;
+  }
+
+  .about-content ul:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  /* ___________Services______________ */
+
+  .services-content {
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .service {
+    width: 90%;
+    float: left;
+    margin: 0 10px;
+    padding: 20px;
+    transition: 0.5s all;
+  }
+
+  /* ____________Portfolio Styles_________________ */
+
+  .portfolio-image {
+    width: 80%;
+    margin: 5% 10%;
+  }
+
+  /* ________________Fun Facts________________ */
+
+  .fact {
+    width: 80%;
+    padding: 0;
+    margin: 2% 10%;
+  }
+
+  /* _________________Testimonials Styles____________________ */
+
+  .testimonial {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .testimonial-image {
+    width: 30%;
+    float: none;
+    margin-left: 30%;
+  }
+
+  .testimonial-content {
+    width: 90%;
+    padding-left: 0;
+    margin-top: 9%;
+  }
+
+  /* ________________Blog Styles______________________ */
+
+  .blog-card {
+    width: 90%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    padding-bottom: 35px;
+  }
+
+  /* ______________Contact Styles___________________ */
+
+  .contact-form {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .form-control {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .form-subject-control {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* _______________Footer Styles________________ */
+
+  .footer {
+    padding: 5%;
+  }
+}
+
+/* ___________Medium devices (landscape tablets, 768px and up)_____________ */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* ____________Home Styles_______________ */
+
+  .navbar {
+    position: fixed;
+    padding: 5px 5px;
+    margin: 0;
+  }
+
+  .navbar-logo {
+    width: 10%;
+  }
+
+  .navbar-links {
+    width: 75%;
+    margin-left: 60px;
+    padding-top: 10px;
+    float: left;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+
+  .navbar-links ul li {
+    padding: 0 10px;
+    list-style: none;
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 25% 0;
+    overflow: hidden;
+  }
+
+  /* _____________About Styles____________ */
+
+  .about {
+    padding: 10% 0;
+    margin: 0;
+  }
+  .about-box {
+    margin-left: 2%;
+    width: 40%;
+    float: left;
+    border-radius: 7px;
+    border: 0;
+  }
+
+  .about-content {
+    width: 45%;
+    float: left;
+    padding: 0;
+    margin-top: 3%;
+  }
+
+  .about-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #555;
+    font-size: 18px;
+  }
+
+  .about-content ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .about-content ul li {
+    padding: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .about-content ul:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  /* ___________Services Styles______________ */
+
+  .services {
+    padding: 10% 0;
+  }
+  .services-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .service {
+    width: 46%;
+    float: left;
+    margin: 0 10px;
+    padding: 5px;
+    transition: 0.5s all;
+  }
+
+  /* ____________Portfolio Styles_________________ */
+
+  .portfolio {
+    padding: 5% 0;
+    margin: 5% 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .portfolio-image {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  /* _________________Testimonials Styles____________________ */
+
+  .testimonials {
+    padding: 5% 0;
+  }
+
+  .testimonial {
+    width: 90%;
+    margin-left: 3%;
+  }
+
+  /* ________________Blog Styles______________________ */
+
+  .blog {
+    padding: 5% 0;
+    margin: 5% 0;
+  }
+  .blog-card {
+    width: 25%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .blog-card p {
+    color: #555;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .blog-card a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .blog-card a:last-child {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* ______________Contact Styles___________________ */
+
+  .contact {
+    padding: 5% 0;
+    margin: 5% 0;
+  }
+
+  .contact-form {
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+  }
+
+  .form-control {
+    width: 45%;
+    padding: 8px;
+  }
+
+  .form-subject-control {
+    width: 95%;
+    margin-right: 4%;
+  }
+
+  .contact-form textarea {
+    width: 95%;
+    margin-right: 4%;
+  }
+
+  /* _______________Footer Styles________________ */
+
+  .footer {
+    padding: 5%;
+  }
+}
+
+/* __________________Extra large devices (large laptops and desktops, 1200px and up)_____________ */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* ____________Home Styles_______________ */
+
+  .navbar {
+    position: fixed;
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .navbar-logo {
+    margin-left: 0;
+    width: 20%;
+  }
+
+  .navbar-links {
+    width: 70%;
+    margin-left: 80px;
+    padding-top: 10px;
+    float: right;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+
+  .navbar-links ul li {
+    padding: 0 10px;
+    list-style: none;
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 25% 0;
+    overflow: hidden;
+  }
+
+  /* _____________About Styles____________ */
+
+  .about {
+    padding: 10% 0;
+    margin: 0;
+  }
+  .about-box {
+    margin-left: 7%;
+    width: 35%;
+    float: left;
+    border-radius: 7px;
+    border: 8px solid #555;
+  }
+
+  .about-content {
+    width: 45%;
+    float: left;
+    padding: 0;
+  }
+
+  .about-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #555;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about-content ul {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+    margin-bottom: 0;
+  }
+  .about-content ul li {
+    padding: 5px;
+    font-size: 18px;
+    color: #555;
+  }
+
+  .about-content ul:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  /* ___________Services Styles______________ */
+
+  .services {
+    padding: 5% 0;
+    margin: 5% 0;
+  }
+  .services-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .service {
+    width: 22%;
+    float: left;
+    margin: 0 10px;
+    padding: 5px;
+    transition: 0.5s all;
+  }
+
+  .service p {
+    font-size: 16px;
+  }
+
+  /* ____________Portfolio Styles_________________ */
+
+  .portfolio {
+    padding: 1% 0;
+    margin: 1%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .portfolio-image {
+    width: 29%;
+    float: left;
+    position: relative;
+  }
+
+  /* _________________Testimonials Styles____________________ */
+
+  .testimonials {
+    padding: 5% 10%;
+  }
+
+  .testimonial {
+    width: 80%;
+    margin-left: 12%;
+  }
+
+  /* ________________Blog Styles______________________ */
+
+  .blog {
+    padding: 5% 0;
+    margin: 5% 0;
+  }
+  .blog-card {
+    width: 27%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .blog-card p {
+    color: #555;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .blog-card a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .blog-card a:last-child {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* ______________Contact Styles___________________ */
+
+  .contact {
+    padding: 5% 0;
+    margin: 5% 0;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-left: 5%;
+    padding: 5px;
+  }
+
+  /* _______________Footer Styles________________ */
+
+  .footer {
+    padding: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* ____________Home Styles_______________ */
+
+  .navbar {
+    position: fixed;
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .navbar-logo {
+    margin-left: 0;
+    width: 20%;
+  }
+
+  .navbar-links {
+    width: 70%;
+    margin-left: 100px;
+    padding-top: 10px;
+    float: right;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+
+  .navbar-links ul li {
+    padding: 0 10px;
+    list-style: none;
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 25% 0;
+    overflow: hidden;
+  }
+
+  /* _____________About Styles____________ */
+
+  .about {
+    padding: 10% 0;
+    margin: 0;
+  }
+  .about-box {
+    margin-left: 7%;
+    width: 35%;
+    float: left;
+    border-radius: 7px;
+    border: 8px solid #555;
+  }
+
+  .about-content {
+    width: 45%;
+    float: left;
+    padding: 0;
+  }
+
+  .about-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #555;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about-content ul {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+    margin-bottom: 0;
+  }
+  .about-content ul li {
+    padding: 5px;
+    font-size: 18px;
+    color: #555;
+  }
+
+  .about-content ul:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  /* ____________Portfolio Styles_________________ */
+
+  .portfolio {
+    padding: 1% 0;
+    margin: 1%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .portfolio-image {
+    width: 29%;
+    float: left;
+    position: relative;
+  }
+}
